@@ -6,14 +6,11 @@
 /*   By: ualkan <ualkan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 13:06:39 by ualkan            #+#    #+#             */
-/*   Updated: 2025/01/22 15:59:45 by ualkan           ###   ########.fr       */
+/*   Updated: 2025/01/23 10:19:26 by ualkan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <signal.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include "minitalk.h"
 
 size_t	ft_strlen(const char *s)
 {
@@ -106,6 +103,7 @@ int	main(void)
 	write(1, "Server pid:", 12);
 	write(1, str_pid, ft_strlen(str_pid));
 	write(1, "\n", 1);
+	free(str_pid);
 	while (1)
 		pause();
 	return (EXIT_SUCCESS);

@@ -6,13 +6,11 @@
 /*   By: ualkan <ualkan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 13:10:26 by ualkan            #+#    #+#             */
-/*   Updated: 2025/01/22 16:03:18 by ualkan           ###   ########.fr       */
+/*   Updated: 2025/01/23 10:19:40 by ualkan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <signal.h>
-#include <unistd.h>
-#include <stdlib.h>
+#include "minitalk.h"
 
 volatile int	g_ack_received = 0;
 
