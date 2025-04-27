@@ -28,7 +28,7 @@ The communication is fully asynchronous and showcases process handling and signa
 
 ### Clone the repository
 ```bash
-git clone https://github.com/your_username/minitalk.git
+git clone https://github.com/Neuravoid/42_Minitalk.git
 cd minitalk
 ```
 
